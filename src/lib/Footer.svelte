@@ -1,5 +1,6 @@
 <script>
   import { COMPANY_LINKS, FEATURES_LINKS, RESOURCES_LINKS } from "../utils/constants";
+  import IconsRow from "./IconsRow.svelte";
   import LinkList from "./LinkList.svelte";
 </script>
 
@@ -10,7 +11,7 @@
   <LinkList title='Resources' links={RESOURCES_LINKS} />
   <LinkList title='Company' links={COMPANY_LINKS}/>
 
-
+  <IconsRow />
 </footer>
 
 <style>
