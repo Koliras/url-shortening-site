@@ -1,25 +1,25 @@
 <ul>
   <li>
     <a href="/">
-      <img src="../../public/images/icon-facebook.svg" alt="Facebook link">
+      <img src="./images/icon-facebook.svg" alt="Facebook link">
     </a>
   </li>
 
   <li>
     <a href="/">
-      <img src="../../public/images/icon-twitter.svg" alt="Twitter link">
+      <img src="./images/icon-twitter.svg" alt="Twitter link">
     </a>
   </li>
 
   <li>
     <a href="/">
-      <img src="../../public/images/icon-pinterest.svg" alt="Pinterest link">
+      <img src="./images/icon-pinterest.svg" alt="Pinterest link">
     </a>
   </li>
 
   <li>
     <a href="/">
-      <img src="../../public/images/icon-instagram.svg" alt="Instagram link">
+      <img src="./images/icon-instagram.svg" alt="Instagram link">
     </a>
   </li>
 </ul>
