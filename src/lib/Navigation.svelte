@@ -1,20 +1,16 @@
+<script>
+  import { NAVIGATION_LINKS } from "../utils/constants";
+</script>
+
 <nav>
   <ul>
-    <li>
-      <a href="/">
-        Features
-      </a>
-    </li>
-    <li>
-      <a href="/">
-        Pricing
-      </a>
-    </li>
-    <li>
-      <a href="/">
-        Resources
-      </a>
-    </li>
+    {#each NAVIGATION_LINKS as link}
+      <li>
+        <a href="{link.destination}">
+          {link.title}
+        </a>
+      </li>  
+    {/each}
   </ul>
 </nav>
 

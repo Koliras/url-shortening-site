@@ -1,27 +1,14 @@
+<script>
+  import { SOCIAL_ICONS } from "../utils/constants";
+</script>
 <ul>
-  <li>
-    <a href="/">
-      <img src="./images/icon-facebook.svg" alt="Facebook link">
-    </a>
-  </li>
-
-  <li>
-    <a href="/">
-      <img src="./images/icon-twitter.svg" alt="Twitter link">
-    </a>
-  </li>
-
-  <li>
-    <a href="/">
-      <img src="./images/icon-pinterest.svg" alt="Pinterest link">
-    </a>
-  </li>
-
-  <li>
-    <a href="/">
-      <img src="./images/icon-instagram.svg" alt="Instagram link">
-    </a>
-  </li>
+  {#each SOCIAL_ICONS as icon}
+    <li>
+      <a href="/">
+        <img src={icon.src} alt={icon.alt}>
+      </a>
+    </li>
+  {/each}
 </ul>
 
 
