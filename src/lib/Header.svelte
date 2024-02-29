@@ -42,6 +42,26 @@
     display: inline;
   }
 
+  .signIn {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .logIn {
+    color: var(--gray);
+  }
+
+  .signUp {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: var(--white);
+    background-color: var(--cyan);
+  }
+
   @media screen and (width > 1180px) {
     header {
       padding: 20px calc((100% - 1140px) / 2);
