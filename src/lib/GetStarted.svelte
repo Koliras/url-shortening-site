@@ -14,7 +14,7 @@
     align-items: center;
     background-image: url("./images/bg-shorten-desktop.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-color: var(--dark-violet);
   }
 
