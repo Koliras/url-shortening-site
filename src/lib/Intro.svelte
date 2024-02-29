@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("./images/illustration-working.svg");
+    background-image: url("/images/illustration-working.svg");
     background-repeat: no-repeat;
     background-position-x: 125%;
     background-size: 50% 100%;
